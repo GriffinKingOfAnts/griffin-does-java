@@ -1,6 +1,4 @@
-package com.griffinkingofants.hyperskill;
-
-import org.junit.jupiter.api.Test;
+package com.griffinkingofants.hyperskill.introductiontohashmap;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -25,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * <p>
  * 4
  */
-public class IntroductionToHashMap {
+public class MaximumFinding {
     private static int maxKey(Map<Integer, Integer> map) {
         Optional<Integer> found = map.keySet().stream().max(Integer::compare);
         if (found.isPresent()) {
